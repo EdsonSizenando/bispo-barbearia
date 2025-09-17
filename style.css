@@ -477,7 +477,7 @@ logo-circle, img{
 
 .product-image img {
     width: auto;
-    min-height: 450px;
+    min-height: 400px;
     object-fit: cover;
     display: block;
     margin: auto;
