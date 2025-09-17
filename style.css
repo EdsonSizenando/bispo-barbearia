@@ -40,7 +40,7 @@ body {
     width: 64px;
     height: 64px;
     background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
-    border-radius: 50%;
+    border-radius: 0%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +49,7 @@ body {
 }
 
 logo-circle, img{
-    height: 70px;
+    height: 75px;
     border-radius: 1%;
 }
 
