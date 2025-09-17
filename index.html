@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Profissional da Bispo Barbearia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo-circle">
+                    <span><img src="imagens/logo.jpg" alt="logo"></span>
+                </div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav-desktop">
+                <a href="https://api.whatsapp.com/message/NNXZPSXG2P5RD1?autoload=1&app_absent=0" target="_blank" class="nav-link whatsapp">
+                    <i data-lucide="message-circle"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://www.instagram.com/bispo.barbershop?utm_source=ig_web_button_share_sheet&igsh=MmQ5dnE3OGp4d2pp" target="_blank" class="nav-link instagram">
+                    <i data-lucide="instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://maps.app.goo.gl/Qqj2q6nCv9hCtYNQ6" target="_blank" class="nav-link location">
+                    <i data-lucide="map-pin"></i>
+                    <span>Localização</span>
+                </a>
+            </nav>
+
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i data-lucide="menu" id="menuIcon"></i>
+                <i data-lucide="x" id="closeIcon" style="display: none;"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-mobile" id="mobileNav">
+            <a href="https://api.whatsapp.com/message/NNXZPSXG2P5RD1?autoload=1&app_absent=0" target="_blank" class="nav-link whatsapp">
+                <i data-lucide="message-circle"></i>
+                <span>WhatsApp</span>
+            </a>
+            <a href="https://www.instagram.com/bispo.barbershop?utm_source=ig_web_button_share_sheet&igsh=MmQ5dnE3OGp4d2pp" target="_blank" class="nav-link instagram">
+                <i data-lucide="instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="https://maps.app.goo.gl/Qqj2q6nCv9hCtYNQ6" target="_blank" class="nav-link location">
+                <i data-lucide="map-pin"></i>
+                <span>Localização</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <!-- Profile Image -->
+            <div class="profile-image">
+                <div class="image-wrapper">
+                    <img src="imagens/fotoperfil.jpg" alt="perfil">
+                </div>
+                
+            </div>
+
+            <!-- Content -->
+            <div class="hero-content">
+                <h1>João Victor Bispo</h1>
+                <h2>Barbeiro e Fundador</h2>
+                <div class="hero-text">
+                    <p>
+                        Muito prazer, sou o João Victor Bispo, barbeiro e proprietário da
+                        <strong>Bispo Barbershop</strong>. Tenho 29 anos e desde cedo descobri que minha vocação era muito mais do que cortar cabelo — era transformar o visual e a autoestima de cada cliente que senta na minha cadeira.
+                    </p>
+                    <p>
+                        A <strong>Bispo Barbershop</strong> nasceu do desejo de criar um espaço onde o cuidado masculino fosse levado a sério, mas sem perder o clima leve, descontraído e acolhedor de uma boa barbearia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="mission-container">
+            <div class="mission-content">
+                <div class="mission-header">
+                    <h2>Nossa <span>Missão</span></h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="mission-text">
+                    <p>
+                        Na Bispo Barbershop, nossa missão é simples e clara: oferecer um atendimento de qualidade, com estilo, personalidade e respeito. Queremos que cada cliente se sinta confiante ao sair daqui, como se estivesse pronto pra encarar o mundo.
+                    </p>
+                    
+                    <div class="mission-features">
+                        <div class="feature">
+                            <p class="feature-title">Experiências Únicas</p>
+                            <p>Mais do que cortes, entregamos experiências memoráveis.</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <p class="feature-title">Conexões Genuínas</p>
+                            <p>Mais do que clientes, criamos conexões verdadeiras.</p>
+                        </div>
+                    </div>
+                    
+                    <p class="mission-welcome">
+                        Seja bem-vindo à casa. Seja bem-vindo à Bispo Barbershop.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="services-container">
+            <div class="section-header">
+                <h2>Nossos <span>Serviços</span></h2>
+                <div class="divider"></div>
+                <p>Oferecemos uma gama completa de serviços para cuidar do seu visual com excelência e profissionalismo.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="scissors"></i>
+                    </div>
+                    <h3>Corte Tradicional</h3>
+                    <p class="service-price">R$ 35,00</p>
+                    <p class="service-description">Corte clássico com acabamento profissional</p>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Lavagem
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Corte
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Finalização
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="sparkles"></i>
+                    </div>
+                    <h3>Corte + Barba</h3>
+                    <p class="service-price">R$ 60,00</p>
+                    <p class="service-description">Pacote completo para o homem moderno</p>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Corte completo
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Barba alinhada
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Hidratação
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="star"></i>
+                    </div>
+                    <h3>Apenas Barba</h3>
+                    <p class="service-price">R$ 35,00</p>
+                    <p class="service-description">Cuidado especializado para sua barba</p>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Aparar
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Alinhar
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Hidratação
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="clock"></i>
+                    </div>
+                    <h3>Corte Infantil</h3>
+                    <p class="service-price">R$ 35,00</p>
+                    <p class="service-description">Atendimento especial para os pequenos</p>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Paciência
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Cuidado especial
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            Ambiente acolhedor
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="products-container">
+            <div class="section-header">
+                <h2>Nossos <span>Produtos</span></h2>
+                <div class="divider"></div>
+                <p>Produtos de qualidade premium para manter seu visual impecável em casa.</p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="imagens/produtos1.jpg" alt="Pomada Modeladora">
+                    </div>
+                    <div class="product-content">
+                        <h3>Pomada Modeladora</h3>
+                        <p>Fixação forte para penteados que duram o dia todo</p>
+                        <button class="product-btn">
+                            <i data-lucide="shopping-bag"></i>
+                            <span>Consultar</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="imagens/produtos2.jpg" alt="Óleo para Barba">
+                    </div>
+                    <div class="product-content">
+                        <h3>Óleo para Barba</h3>
+                        <p>Hidratação e brilho natural para sua barba</p>
+                        <button class="product-btn">
+                            <i data-lucide="shopping-bag"></i>
+                            <span>Consultar</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="imagens/produtos4.jpg" alt="Shampoo Masculino">
+                    </div>
+                    <div class="product-content">
+                        <h3>Shampoo Masculino</h3>
+                        <p>Limpeza profunda respeitando o couro cabeludo</p>
+                        <button class="product-btn">
+                            <i data-lucide="shopping-bag"></i>
+                            <span>Consultar</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="imagens/produtos3.jpg" alt="Cera Modeladora">
+                    </div>
+                    <div class="product-content">
+                        <h3>Cera Modeladora</h3>
+                        <p>Textura e definição para todos os tipos de cabelo</p>
+                        <button class="product-btn">
+                            <i data-lucide="shopping-bag"></i>
+                            <span>Consultar</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Contact Information -->
+                <div class="footer-info">
+                    <h3>Informações de Contato</h3>
+                    
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <p class="contact-title">Endereço</p>
+                            <p class="contact-text">
+                                R. Profa. Ocarlina Drumond de Carvalho, 109<br>
+                                Maria Ortiz, Vitória - ES, 29070-530
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i data-lucide="clock"></i>
+                        <div>
+                            <p class="contact-title">Horário de Funcionamento</p>
+                            <p class="contact-text">
+                                Segunda a Sexta: 09h às 18h<br>
+                                Sábado: 09:30 às 16h <br>
+                                Domingo: Fechado
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i data-lucide="phone"></i>
+                        <div>
+                            <p class="contact-title">Contato</p>
+                            <p class="contact-text">
+                                Agende pelo WhatsApp para garantir seu horário
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map -->
+                <div class="footer-map">
+                    <h3>Nossa Localização</h3>
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.976718241305!2d-40.2985837!3d-20.259800300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8186d806972c3%3A0x5fcad048bf2e5b01!2sR.%20Profa.%20Ocarlina%20Drumond%20de%20Carvalho%2C%20109%20-%20Maria%20Ortiz%2C%20Vit%C3%B3ria%20-%20ES%2C%2029070-530!5e0!3m2!1spt-BR!2sbr!4v1757910577256!5m2!1spt-BR!2sbr"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="imagens/logo.jpg" alt="logo">
+                    </div>
+                    <div>
+                        <h4>Bispo Barbershop</h4>
+                        <p>Estilo, qualidade e tradição</p>
+                    </div>
+                </div>
+                
+                <p class="copyright">
+                    © 2025 Bispo Barbershop. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <div class="elfsight-app-53d63e7d-b4be-4ce1-9393-9966ff19e83d" data-elfsight-app-lazy></div>
+</body>
+</html>
